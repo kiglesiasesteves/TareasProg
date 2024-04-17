@@ -12,13 +12,11 @@ public class Tabla {
     public Tabla() {
         JFrame frame = new JFrame("Interfaz Tabla"); // Crear una ventana
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Cerrar la ventana
-        frame.setSize(350, 300); // Tamaño de la ventana
+        frame.setSize(550, 550); // Tamaño de la ventana
         frame.setLocationRelativeTo(null); // Centrar la ventana al ejecutar
 
         JPanel panel = new JPanel(); // Crear un panel
         frame.add(panel); // Añadir el panel a la ventana
-
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS)); // Establecer el layout del panel
 
         JPanel panelNombre = new JPanel(new FlowLayout(FlowLayout.LEFT)); // Crear un panel con layout FlowLayout alineado a la izquierda
         JLabel etiquetaNombre = new JLabel("Nombre:"); // Crear una etiqueta
