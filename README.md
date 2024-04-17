@@ -9,7 +9,10 @@
 ### 15/04/2024
 ### [Tareas Layouts Calculadora Simple](InterfazCalculadora)
 ### [Tareas Layouts Panel de Control de Medios](InterfazModulo)
-### [Tareas ConversorTemperaturas.Main](Main.java)         [Tareas ConversorTemperaturas.Conversor](ConversionTemperaturas.java)
+### [Tareas ConversorTemperaturas](ConversorTemperaturas)
+
+### 17/04/2024
+### [Tarea tabla](Tabla)
 
 
 
